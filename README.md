@@ -8,7 +8,7 @@ Cutaneous Diseases or skin disorders are conditions that affect the skin, nails,
 
 **Problem Statement**
 
-Classification of skin diseases helps in early and accurate diagnosis, enabling timely and appropriate treatment. It also aids in standardizing care and improving clinical decision-making.
+Classification of skin diseases helps in early and accurate diagnosis, enabling timely and appropriate treatment. It also aids in standardizing care and improving clinical decision-making. Timely diagnosis becomes an important factor considering the fact that these diseases need to receive prompt medication to curb their spread. 
 
 **Our Approach**
 
@@ -22,5 +22,13 @@ Refer to this paper published in ICPR 2024 for more information: https://doi.org
 
 **Dataset Availability** 
 
-The dataset created specifically for this use is available on request at nitichikhale19@gmail.com or sushilsavant786@gmail.com 
+The dataset created specifically for this use is available on request at nitichikhale19@gmail.com or sushilsavant786@gmail.com. Make sure to include a short abstract or introduction to the research study/project you are going to perform using this data for us to evaluate the dataset requirement.
+
+**Repository Contents**
+
+1. Different Neural-network model fine-tuning codes saved as a Python file (.py) that are ready-to-use with the skin lesion dataset or with any dataset of the user's choice (make changes accordingly in some parts of the code if the dataset is different!)
+2. Augmentation techniques' codes saved as a Python File (.py) also available to generate similar images
+3. Train test split code if in-case your dataset is not segregated between Training and Testing
+4. FID code as a Python file (.py) to calculate similarity between generated images and original images
+5. All the pre-requisites (libraries download) for running the Python codes on your environment in a .txt file
 
