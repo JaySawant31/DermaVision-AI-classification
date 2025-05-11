@@ -30,5 +30,6 @@ The dataset created specifically for this use is available on request at nitichi
 2. Augmentation techniques' codes saved as a Python File (.py) also available to generate similar images
 3. Train test split code if in-case your dataset is not segregated between Training and Testing
 4. FID code as a Python file (.py) to calculate similarity between generated images and original images
-5. All the pre-requisites (libraries download) for running the Python codes on your environment in a .txt file
+5. All the pre-requisites (libraries download) for running the Python codes on your environment in a .txt file: [python_code_pre-requisite_libraries.txt](https://github.com/JaySawant31/Deep-Learning-based-classification-of-Cutaneous-Diseases/blob/main/python_code_pre-requisite_libraries.txt)
+
 
