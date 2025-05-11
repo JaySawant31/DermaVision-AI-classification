@@ -1,1 +1,26 @@
+**Classification of Cutaneous Diseases using Deep Learning**
+
+This repository contains all the codes for a project that aims to classifiy cutanoeus or skin diseases using pre-trained Deep-Learning models like ResNet-18, ResNet-50, VGG-16, MobileNetV2, and EfficientNetB0. The dataset is in the form of real-time taken skin image lesions. More information about the availabilty/procurement of the dataset is also provided. Data Augmentation techniques namely Basic Augmentation and Convolutional Autoencoder to generate images have also been included in this repository since the initial dataset that is available is a very small one (50 images per class across 4 classes).
+
+**What are Cutaneous Diseases?**
+
+Cutaneous Diseases or skin disorders are conditions that affect the skin, nails, and related tissues. Various factors are involved in causing these. 
+
+**Problem Statement**
+
+Classification of skin diseases helps in early and accurate diagnosis, enabling timely and appropriate treatment. It also aids in standardizing care and improving clinical decision-making.
+
+**Our Approach**
+
+We utilized real-time images of skin diseases and created a curated dataset to perform classification of cutaneous diseases based on four classes namely: _Herpes Simplex, Herpes Zoster, Molluscum Contagiosum, and Non-Viral._The images were collected by Dr. Sushil Savant, MD Dermatologist, our collaborator in this project during his Masters Thesis at Katihar Medical College and Hospital, Bihar, India. Five neural network architectures whose names have been mentioned earlier were modified to be trained and tested on this curated dataset. A basic methodology pipeline adopted in this approach is depcited using a block diagram shown below:
+
+
+![image](https://github.com/user-attachments/assets/de818def-b143-41f4-8e93-0b54c394a1e2)
+
+
+Refer to this paper published in ICPR 2024 for more information: https://doi.org/10.1007/978-3-031-78201-5_10 
+
+**Dataset Availability** 
+
+The dataset created specifically for this use is available on request at nitichikhale19@gmail.com or sushilsavant786@gmail.com 
 
