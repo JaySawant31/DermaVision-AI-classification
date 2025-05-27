@@ -17,6 +17,7 @@ def load_data(data_dir, transform):
 
 # Check if a GPU is available
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+print(device) #Ensuring GPU usage
 
 # Define data transforms (resize and normalize)
 transform = transforms.Compose([
@@ -26,8 +27,8 @@ transform = transforms.Compose([
 ])
 
 # Ask the user for data directory paths
-train_data_dir = "Your Train Data Path here"
-test_data_dir = "Your Test Data Path here"
+train_data_dir = "Your-Train-Data-Path here.pth"
+test_data_dir = "Your-Test-Data-Path-here.pth"
 
 # Load the data
 train_loader = load_data(train_data_dir, transform)
