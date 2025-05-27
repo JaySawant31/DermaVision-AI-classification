@@ -1,7 +1,0 @@
-pip install torch 
-pip install torchvision
-pip install scikit-learn
-pip install matplotlib
-pip install numpy
-pip install pillow
-pip install efficientnet_pytorch
